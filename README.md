@@ -1,5 +1,5 @@
 # bit05bootstrap
 ## Descripcion
-Poryecto
+Proyecto
 ## Autor
 Vanessa Robles y Luisa Sandoval
