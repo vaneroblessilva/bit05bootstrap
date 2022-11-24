@@ -1,7 +1,6 @@
 body{
     background:linear-gradient( 90deg, #fcfcda, #ffeebc , #b0f2c2, #c7f6d4);
     
-
 }
 
 marquee.promo,
@@ -52,7 +51,7 @@ marquee.material{
     color:#ffe8a3;
     z-index: 1;
 } 
- .overlay .row{
+ .row{
     margin-top: 30px;
 }
 
@@ -75,6 +74,8 @@ section{
     justify-content: center;
     align-items: center;
 }
+
+
 
 @media only screen and (max-width: 640px) {
     .overlay {
