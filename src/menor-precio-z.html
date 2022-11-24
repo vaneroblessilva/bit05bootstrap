@@ -55,24 +55,38 @@
         </div>
       </nav>
     </header>
-    <h1>Ropa Deportiva</h1>
+    <h1>Zapatos</h1>
     <br>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <!--Tarjetas de Ropa Deportiva-->
+        <!--Boton de Ordenar por:-->
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <div class="btn-group" role="group">
+        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">
+          Ordenar por:
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="menor-precio-z.html">Menor precio</a></li>
+          <li><a class="dropdown-item" href="mayor-precio-z.html">Mayor precio</a></li>
+        </ul>
+  </div>
+</div>
+<br>
+    <!--Tarjetas de Zapatos-->
     <div class="row row-cols-1 row-cols-md-3 g-4">
-          <!-- Camiseta deportiva-->
-        <div class="col">
+          <!-- Tenis en gamuza hombre-->
+        <div class="col order-0">
             <div class="card text-center" style="width: 25rem;">
-              <img src="/bit05bootstrap/src/img/deportivo/d1.jpg" class="card-img-top" alt="Camiseta Deportiva">
+              <img src="/bit05bootstrap/src/img/zapatos/zh1.jpg" class="card-img-top" alt="Tenis Gamuza">
               <div class="card-body">
-                <h5 class="card-title">Camiseta Deportiva Para Hombre Azul</h5>
-                <p class="card-text">Camiseta deportiva básica manga corta unicolor. Complemento ideal para hacer actividad física.</p>
-                <h3 class="text-danger">$ 40.000</h3>
+                <h5 class="card-title">Tenis Para Hombres Tipo Gamuza</h5>
+                <p class="card-text">Tenis para hombres elaborados en tela de gamuza con estilo moderno</p>
+                <h3 class="text-danger">$ 120.000</h3>
                 <h6>Tallas Disponible</h6>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">S</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">M</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">L</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">XL</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">38</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">39</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">40</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">41</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">42</a>
                 <br>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -80,84 +94,53 @@
 </button>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Tabla de medidas para hombre</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Tabla de medidas calzados</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <!-- Tabla de Medidas -->
-        <h5>Guía Prendas Superiores (cm)</h5>
+        <figure><img src="/bit05bootstrap/src/img/zapatos/calzado.jpg"  style="width: 48rem" alt="Tallas"></figure>
         <table class="table">
           <thead>
             <tr>
               <th scope="col">Talla</th>
-              <th scope="col">Pecho</th>
-              <th scope="col">Cintura</th>
-              <th scope="col">Cadera</th>
+              <th scope="col">Medida (cm)</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row">S</th>
-              <td>93-98</td>
-              <td>78-83</td>
-              <td>95-100</td>
+              <th scope="row">36</th>
+              <td>23,5 - 24,1</td>
             </tr>
             <tr>
-              <th scope="row">M</th>
-              <td>98-103</td>
-              <td>78-83</td>
-              <td>95-100</td>
+              <th scope="row">37</th>
+              <td>24,2 - 24,8</td>
             </tr>
             <tr>
-              <th scope="row">L</th>
-              <td>103-108</td>
-              <td>88-93</td>
-              <td>105-110</td>
+              <th scope="row">38</th>
+              <td>24,9 - 25,5</td>
             </tr>
             <tr>
-              <th scope="row">XL</th>
-              <td>108-113</td>
-              <td>93-98</td>
-              <td>110-115</td>
+              <th scope="row">39</th>
+              <td>25,6 - 26,2</td>
+            </tr>
+            <tr>
+              <th scope="row">40</th>
+              <td>26,3 - 26,9</td>
+            </tr>
+            <tr>
+              <th scope="row">41</th>
+              <td>27 - 27,6</td>
+            </tr>
+            <tr>
+              <th scope="row">42</th>
+              <td>27,7 - 28,3</td>
             </tr>
           </tbody>
         </table>
-        <h5>Guía Prendas Inferiores (cm)</h5>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Talla</th>
-              <th scope="col">Cintura</th>
-              <th scope="col">Cadera</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">30</th>
-              <td>78-83</td>
-              <td>90-95</td>
-            </tr>
-            <tr>
-              <th scope="row">32</th>
-              <td>83-88</td>
-              <td>95-100</td>
-            </tr>
-            <tr>
-              <th scope="row">34</th>
-              <td>88-93</td>
-              <td>105-110</td>
-            </tr>
-            <tr>
-                <th scope="row">36</th>
-                <td>93-98</td>
-                <td>110-115</td>
-            </tr>
-          </tbody>
-        </table>
-        <figure><img src="/bit05bootstrap/src/img/deportivo/talladeportivo.jpg"  style="width: 25rem" alt="Tallas"></figure>
       </div>
     </div>
   </div>
@@ -165,40 +148,20 @@
               </div>
           </div>
         </div>
-          <!-- Bermuda Negra-->
-          <div class="col">
-            <div class="card text-center" style="width: 25rem;">
-              <img src="/bit05bootstrap/src/img/deportivo/d2.jpg" class="card-img-top" alt="Bermuda Negra">
-              <div class="card-body">
-                <h5 class="card-title">Bermuda Sport Unicolor Hombre</h5>
-                <p class="card-text">Bermuda sport para Hombre unicolor corta.</p>
-                <h3 class="text-danger">$ 120.000</h3>
-                <h6>Tallas Disponible</h6>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">30</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">32</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">34</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">36</a>
-                <br>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Tabla de medidas
-</button>
-              </div>
-          </div>
-        </div>
-          <!-- Camiseta Hombre Azul-->
-          <div class="col">
+          <!-- Tenis color cafe hombre-->
+          <div class="col  order-5">
               <div class="card text-center" style="width: 25rem;">
-                <img src="/bit05bootstrap/src/img/deportivo/d3.jpg" class="card-img-top" alt="Camiseta Hombre Azul">
+                <img src="/bit05bootstrap/src/img/zapatos/zh2.jpg" class="card-img-top" alt="Tenis Cafe">
                 <div class="card-body">
-                  <h5 class="card-title">Camiseta Hombre Azul</h5>
-                  <p class="card-text">Camiseta para Hombre manga sisa, unicolor con contrastes delgados. </p>
-                  <h3 class="text-danger">$ 20.000</h3>
+                  <h5 class="card-title">Tenis Para Hombre En Color Cafe</h5>
+                  <p class="card-text">Tenis para Hombre casual tono cafe, cordones del mismo tono, suela blanca.</p>
+                  <h3 class="text-danger">$ 180.000</h3>
                   <h6>Tallas Disponible</h6>
-                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">S</a>
-                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">M</a>
-                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">L</a>
-                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">XL</a>
+                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">38</a>
+                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">39</a>
+                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">40</a>
+                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">41</a>
+                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">42</a>
                   <br>
   <!-- Button trigger modal -->
   <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -207,19 +170,42 @@
                 </div>
             </div>
           </div>
-          <!-- Chaqueta Deportiva Para Hombre Unicolor-->
-          <div class="col">
+          <!-- Tenis color blanco hombre-->
+          <div class="col order-1">
             <div class="card text-center" style="width: 25rem;">
-              <img src="/bit05bootstrap/src/img/deportivo/d4.jpg" class="card-img-top" alt="Chaqueta Deportiva Para Hombre Unicolor">
+              <img src="/bit05bootstrap/src/img/zapatos/zh3.jpg" class="card-img-top" alt="Tenis blancos">
               <div class="card-body">
-                <h5 class="card-title">Chaqueta Deportiva Para Hombre Unicolor</h5>
-                <p class="card-text">Chaqueta deportiva para Hombre, cuello alto, unicolor con bolsillo frontal, elaborada en tejido plano.</p>
-                <h3 class="text-danger">$ 100.000</h3>
+                <h5 class="card-title">Tenis Para Hombre Lisos Blancos</h5>
+                <p class="card-text">Tenis para Hombre lisos tono blanco, cordones y suela del mismo tono.</p>
+                <h3 class="text-danger">$ 150.000</h3>
                 <h6>Tallas Disponible</h6>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">S</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">M</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">L</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">XL</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">38</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">39</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">40</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">41</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">42</a>
+                <br>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Tabla de medidas
+</button>
+              </div>
+          </div>
+        </div>
+          <!-- Tenis rosa mujer-->
+          <div class="col order-7">
+            <div class="card text-center" style="width: 25rem;">
+              <img src="/bit05bootstrap/src/img/zapatos/zm1.jpg" class="card-img-top" alt="Tenis rosa">
+              <div class="card-body">
+                <h5 class="card-title">Tenis Mujer Rosa Suela Amplia</h5>
+                <p class="card-text">Tenis para Mujer rosados con cordones blancos y suela amplia.</p>
+                <h3><del>$ 150.000</del></h3><h3 class="text-danger"> $ 120.000</h3>
+                <h6>Tallas Disponible</h6>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">36</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">37</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">38</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">39</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">40</a>
                 <br>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -273,19 +259,20 @@
               </div>
           </div>
         </div>
-          <!-- Camiseta Deportiva Cuello V-->
-          <div class="col">
+          <!-- Tenis beige mujer-->
+          <div class="col order-3">
             <div class="card text-center" style="width: 25rem;">
-              <img src="/bit05bootstrap/src/img/deportivo/d5.jpg" class="card-img-top" alt="Camiseta Deportiva Cuello V">
+              <img src="/bit05bootstrap/src/img/zapatos/zm2.jpg" class="card-img-top" alt="Tenis beige">
               <div class="card-body">
-                <h5 class="card-title">Camiseta Deportiva Cuello V</h5>
-                <p class="card-text">Camiseta deportiva básica manga corta cuello v unicolor. Complemento ideal para hacer actividad física.</p>
-                <h3><del>$ 40.000</del></h3><h3 class="text-danger"> $ 30.000</h3>
+                <h5 class="card-title">Tenis Para Mujer Beige</h5>
+                <p class="card-text">Tenis para Mujer tonalidad beige cordones del mismo tono, suela blanca.</p>
+                <h3><del>$ 180.000</del></h3><h3 class="text-danger"> $ 160.000</h3>
                 <h6>Tallas Disponible</h6>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">S</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">M</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">L</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">XL</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">36</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">37</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">38</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">39</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">40</a>
                 <br>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -294,14 +281,14 @@
               </div>
           </div>
         </div>
-          <!-- DBermuda Deportiva Para Hombre-->
-          <div class="col">
+          <!-- Deportivos Gris/Rosa mujer-->
+          <div class="col  order-2">
             <div class="card text-center" style="width: 25rem;">
-              <img src="/bit05bootstrap/src/img/deportivo/d6.jpg" class="card-img-top" alt="Bermuda Deportiva Para Hombre">
+              <img src="/bit05bootstrap/src/img/zapatos/zm3.jpg" class="card-img-top" alt="Deportivos Gris/Rosa">
               <div class="card-body">
-                <h5 class="card-title">Bermuda Deportiva Para Hombre</h5>
-                <p class="card-text">Bermuda en color violeta de tela fresca ideal para hacer ejercicio.</p>
-                <h3><del>$ 40.000</del></h3><h3 class="text-danger"> $ 35.000</h3>
+                <h5 class="card-title">Tenis Mujer Gris/Rosa</h5>
+                <p class="card-text">Tenis para Mujer en malla tono gris con refuerzo interno color rosa, cordones tono gris y suela blanca.</p>
+                <h3 class="text-danger">$ 160.000</h3>
                 <h6>Tallas Disponible</h6>
                 <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">36</a>
                 <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">37</a>
