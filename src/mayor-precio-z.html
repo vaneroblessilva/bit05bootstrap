@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--Meta etiquetas requeridas-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fer<sup>2</sup></title>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
+    <link rel="shortcut icon" href="/bit05bootstrap/src/img/logo.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+        <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="index.html"><img src="./img/logo_copy.png" alt="" style="width: 80px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Curiosidades Fer<sup>2</sup> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="deportes.html">Deportes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="zapatos.html">Zapatos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="pijamas.html">Pijamas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contáctanos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.facebook.com/feralcuadrado">Facebook</a></li>
+                  <li><a class="dropdown-item" href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D">Instagram</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="contacto.html">¡Te contáctamos!</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h1>Zapatos</h1>
+    <br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <!--Boton de Ordenar por:-->
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <div class="btn-group" role="group">
+        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">
+          Ordenar por:
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="menor-precio-z.html">Menor precio</a></li>
+          <li><a class="dropdown-item" href="mayor-precio-z.html">Mayor precio</a></li>
+        </ul>
+  </div>
+</div>
+<br>
+    <!--Tarjetas de Zapatos-->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- Tenis en gamuza hombre-->
+        <div class="col order-5">
+            <div class="card text-center" style="width: 25rem;">
+              <img src="/bit05bootstrap/src/img/zapatos/zh1.jpg" class="card-img-top" alt="Tenis Gamuza">
+              <div class="card-body">
+                <h5 class="card-title">Tenis Para Hombres Tipo Gamuza</h5>
+                <p class="card-text">Tenis para hombres elaborados en tela de gamuza con estilo moderno</p>
+                <h3 class="text-danger">$ 120.000</h3>
+                <h6>Tallas Disponible</h6>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">38</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">39</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">40</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">41</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">42</a>
+                <br>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Tabla de medidas
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Tabla de medidas calzados</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Tabla de Medidas -->
+        <figure><img src="/bit05bootstrap/src/img/zapatos/calzado.jpg"  style="width: 48rem" alt="Tallas"></figure>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Talla</th>
+              <th scope="col">Medida (cm)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">36</th>
+              <td>23,5 - 24,1</td>
+            </tr>
+            <tr>
+              <th scope="row">37</th>
+              <td>24,2 - 24,8</td>
+            </tr>
+            <tr>
+              <th scope="row">38</th>
+              <td>24,9 - 25,5</td>
+            </tr>
+            <tr>
+              <th scope="row">39</th>
+              <td>25,6 - 26,2</td>
+            </tr>
+            <tr>
+              <th scope="row">40</th>
+              <td>26,3 - 26,9</td>
+            </tr>
+            <tr>
+              <th scope="row">41</th>
+              <td>27 - 27,6</td>
+            </tr>
+            <tr>
+              <th scope="row">42</th>
+              <td>27,7 - 28,3</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+          </div>
+        </div>
+          <!-- Tenis color cafe hombre-->
+          <div class="col order-0">
+              <div class="card text-center" style="width: 25rem;">
+                <img src="/bit05bootstrap/src/img/zapatos/zh2.jpg" class="card-img-top" alt="Tenis Cafe">
+                <div class="card-body">
+                  <h5 class="card-title">Tenis Para Hombre En Color Cafe</h5>
+                  <p class="card-text">Tenis para Hombre casual tono cafe, cordones del mismo tono, suela blanca.</p>
+                  <h3 class="text-danger">$ 180.000</h3>
+                  <h6>Tallas Disponible</h6>
+                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">38</a>
+                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">39</a>
+                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">40</a>
+                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">41</a>
+                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">42</a>
+                  <br>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Tabla de medidas
+  </button>
+                </div>
+            </div>
+          </div>
+          <!-- Tenis color blanco hombre-->
+          <div class="col orden-2">
+            <div class="card text-center" style="width: 25rem;">
+              <img src="/bit05bootstrap/src/img/zapatos/zh3.jpg" class="card-img-top" alt="Tenis blancos">
+              <div class="card-body">
+                <h5 class="card-title">Tenis Para Hombre Lisos Blancos</h5>
+                <p class="card-text">Tenis para Hombre lisos tono blanco, cordones y suela del mismo tono.</p>
+                <h3 class="text-danger">$ 150.000</h3>
+                <h6>Tallas Disponible</h6>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">38</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">39</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">40</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">41</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">42</a>
+                <br>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Tabla de medidas
+</button>
+              </div>
+          </div>
+        </div>
+          <!-- Tenis rosa mujer-->
+          <div class="col order-3">
+            <div class="card text-center" style="width: 25rem;">
+              <img src="/bit05bootstrap/src/img/zapatos/zm1.jpg" class="card-img-top" alt="Tenis rosa">
+              <div class="card-body">
+                <h5 class="card-title">Tenis Mujer Rosa Suela Amplia</h5>
+                <p class="card-text">Tenis para Mujer rosados con cordones blancos y suela amplia.</p>
+                <h3><del>$ 150.000</del></h3><h3 class="text-danger"> $ 120.000</h3>
+                <h6>Tallas Disponible</h6>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">36</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">37</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">38</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">39</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">40</a>
+                <br>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Tabla de medidas
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Tabla de medidas calzados</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Tabla de Medidas -->
+        <figure><img src="/bit05bootstrap/src/img/calzado.jpg"  style="width: 30rem" alt="Tallas"></figure>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Talla</th>
+              <th scope="col">Medida (cm)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">36</th>
+              <td>23,5 - 24,1</td>
+            </tr>
+            <tr>
+              <th scope="row">37</th>
+              <td>24,2 - 24,8</td>
+            </tr>
+            <tr>
+              <th scope="row">38</th>
+              <td>24,9 - 25,5</td>
+            </tr>
+            <tr>
+              <th scope="row">39</th>
+              <td>25,6 - 26,2</td>
+            </tr>
+            <tr>
+              <th scope="row">40</th>
+              <td>26,3 - 26,9</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+          </div>
+        </div>
+          <!-- Tenis beige mujer-->
+          <div class="col order-7">
+            <div class="card text-center" style="width: 25rem;">
+              <img src="/bit05bootstrap/src/img/zapatos/zm2.jpg" class="card-img-top" alt="Tenis beige">
+              <div class="card-body">
+                <h5 class="card-title">Tenis Para Mujer Beige</h5>
+                <p class="card-text">Tenis para Mujer tonalidad beige cordones del mismo tono, suela blanca.</p>
+                <h3><del>$ 180.000</del></h3><h3 class="text-danger"> $ 160.000</h3>
+                <h6>Tallas Disponible</h6>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">36</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">37</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">38</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">39</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">40</a>
+                <br>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Tabla de medidas
+</button>
+              </div>
+          </div>
+        </div>
+          <!-- Deportivos Gris/Rosa mujer-->
+          <div class="col orden-1">
+            <div class="card text-center" style="width: 25rem;">
+              <img src="/bit05bootstrap/src/img/zapatos/zm3.jpg" class="card-img-top" alt="Deportivos Gris/Rosa">
+              <div class="card-body">
+                <h5 class="card-title">Tenis Mujer Gris/Rosa</h5>
+                <p class="card-text">Tenis para Mujer en malla tono gris con refuerzo interno color rosa, cordones tono gris y suela blanca.</p>
+                <h3 class="text-danger">$ 160.000</h3>
+                <h6>Tallas Disponible</h6>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">36</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">37</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">38</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">39</a>
+                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">40</a>
+                <br>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Tabla de medidas
+</button>
+              </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
