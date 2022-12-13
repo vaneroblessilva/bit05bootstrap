@@ -4,58 +4,70 @@
     <!--Meta etiquetas requeridas-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fer<sup>2</sup></title>
+    <title>Pijamas</title>
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/index.css">
+   
+    <link rel="stylesheet" href="./css/compras.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
-    <link rel="shortcut icon" href="/bit05bootstrap/src/img/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/src/img/logo.ico" type="image/x-icon">
   </head>
   <body>
+    <!--Header.marquesin-con-promo-->
     <header>
-        <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid ">
-          <a class="navbar-brand" href="index.html"><img src="./img/logo_copy.png" alt="" style="width: 80px;"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Curiosidades Fer<sup>2</sup> </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="deportes.html">Deportes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="zapatos.html">Zapatos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="pijamas.html">Pijamas</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Contáctanos
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://www.facebook.com/feralcuadrado">Facebook</a></li>
-                  <li><a class="dropdown-item" href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D">Instagram</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="contacto.html">¡Te contáctamos!</a></li>
-                </ul>
-              </li>
-              
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+
+      
+     
+      <div class="nav container">
+        <a class="navbar-brand" href="index.html"><img src="./img/logo_copy.png" alt="" style="width: 80px;"></a>
+        <a href="index.html">Curiosidades Fer <sup>2</sup></a>
+        <!--Card-icon-->
+        <span class="material-symbols-outlined" id="cart-icon">
+          shopping_cart
+          </span>
+
+      </div>
+      <div class="cart">
+        <h2 class="cart-title">Tu Carrito </h2>
+        <!--Contenido de la carta-->
+        <div class="cart-content">
+          <div class="cart-box">
+            <img src="./img/carro_3.jpg" alt="" class="cart-imge">
+            <div class="detail-box">
+              <div class="cart-product-title">Próximo producto</div>
+              <div class="cart-price">$40.3000</div>
+           
+          
+                <input type="number"  min="1" value="1" class="cart-quantity"> 
+                
+  
+            </div>
+
+          
+            <!--Delete producto-->
+            <span class="material-symbols-outlined cart-remove">
+              delete
+              </span>
           </div>
         </div>
-      </nav>
-    </header>
-    <h1>Pijamas</h1>
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price"> $0</div>
+        </div>
+        <!--Botón comprar-->
+        <button type="button" class="btn-buy">COMPRAR</button>
+        <!--Cerrar compra-->
+        <span class="material-symbols-outlined" id="close-cart">
+          close
+          </span>
+      </div>
+    </div>
+      
+     </header>
+  
+     <div class="container-fluid" id="catalogo">
+      <section class="card-section">
+    <h1 class="text-center" id="titulo"> Pijamas</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <!--Boton de Ordenar por:-->
 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
@@ -71,20 +83,20 @@
 </div>
 <br>
     <!--Tarjetas de pijamas-->
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="row justify-content-between justify-content-md-center g-4">
           <!-- Pijama Melissa-->
         <div class="col">
             <div class="card text-center" style="width: 25rem;">
-              <img src="/bit05bootstrap/src/img/pijamas/melissa.jpg" class="card-img-top" alt="Pijama Melissa">
+              <img src="/src/img/pijamas/melissa.jpg" class="card-img-top" alt="Pijama Melissa">
               <div class="card-body">
                 <h5 class="card-title">Pijama Melissa</h5>
                 <p class="card-text">Pijama de estampados flores rosas</p>
                 <h3 class="text-danger">$ 52.000</h3>
                 <h6>Tallas Disponible</h6>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">S</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">M</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">L</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">XL</a>
+                <button class="btn btn-outline-secondary">S</button>
+                <button class="btn btn-outline-secondary">M</button>
+                <button class="btn btn-outline-secondary">L</button>
+                <button class="btn btn-outline-secondary">XL</button>
                 <br>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -137,7 +149,7 @@
           </tbody>
         </table>
       </div>
-      <figure><img src="/bit05bootstrap/src/img/talla.jpg"  style="width: 25rem" alt="Tallas"></figure>
+      <figure><img src="/src/img/talla.jpg"  style="width: 25rem" alt="Tallas"></figure>
     </div>
   </div>
 </div>
@@ -147,16 +159,16 @@
           <!-- Pijama Daisy-->
           <div class="col">
               <div class="card text-center" style="width: 25rem;">
-                <img src="/bit05bootstrap/src/img/pijamas/daisy.jpg" class="card-img-top" alt="Pijama Daisy">
+                <img src="/src/img/pijamas/daisy.jpg" class="card-img-top" alt="Pijama Daisy">
                 <div class="card-body">
                   <h5 class="card-title">Pijama Daisy</h5>
                   <p class="card-text">Pijama de rayas grises</p>
                   <h3><del>$ 52.000</del></h3><h3 class="text-danger"> $ 40.000</h3>
                   <h6>Tallas Disponible</h6>
-                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">S</a>
-                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">M</a>
-                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">L</a>
-                  <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">XL</a>
+                  <button class="btn btn-outline-secondary">S</button>
+                <button class="btn btn-outline-secondary">M</button>
+                <button class="btn btn-outline-secondary">L</button>
+                <button class="btn btn-outline-secondary">XL</button>
                   <br>
   <!-- Button trigger modal -->
   <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -168,16 +180,16 @@
           <!--Pijama Jasmine-->
           <div class="col">
             <div class="card text-center" style="width: 25rem;">
-              <img src="/bit05bootstrap/src/img/pijamas/jamine.jpg" class="card-img-top" alt="Pijama Jasmine">
+              <img src="/src/img/pijamas/jamine.jpg" class="card-img-top" alt="Pijama Jasmine">
               <div class="card-body">
                 <h5 class="card-title">Pijama Jasmine</h5>
                 <p class="card-text">Pijama estampada verde</p>
                 <h3 class="text-danger">$ 52.000</h3>
                 <h6>Tallas Disponible</h6>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">S</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">M</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">L</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">XL</a>
+                <button class="btn btn-outline-secondary">S</button>
+                <button class="btn btn-outline-secondary">M</button>
+                <button class="btn btn-outline-secondary">L</button>
+                <button class="btn btn-outline-secondary">XL</button>
                 <br>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -189,16 +201,16 @@
           <!--Pijama Francis-->
           <div class="col">
             <div class="card text-center" style="width: 25rem;">
-              <img src="/bit05bootstrap/src/img/pijamas/francis.jpg" class="card-img-top" alt="Pijama Francis">
+              <img src="/src/img/pijamas/francis.jpg" class="card-img-top" alt="Pijama Francis">
               <div class="card-body">
                 <h5 class="card-title">Pijama Francis</h5>
                 <p class="card-text">Pijama de algodón en color negro y rosado</p>
                 <h3 class="text-danger">$ 60.000</h3>
                 <h6>Tallas Disponible</h6>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">S</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">M</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">L</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">XL</a>
+                <button class="btn btn-outline-secondary">S</button>
+                <button class="btn btn-outline-secondary">M</button>
+                <button class="btn btn-outline-secondary">L</button>
+                <button class="btn btn-outline-secondary">XL</button>
                 <br>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -210,16 +222,16 @@
           <!--Pijama Rosa-->
           <div class="col">
             <div class="card text-center" style="width: 25rem;">
-              <img src="/bit05bootstrap/src/img/pijamas/rosa.jpg" class="card-img-top" alt="Pijama Rosa">
+              <img src="/src/img/pijamas/rosa.jpg" class="card-img-top" alt="Pijama Rosa">
               <div class="card-body">
                 <h5 class="card-title">Pijama Rosa</h5>
                 <p class="card-text">Pijama de algodón en color rosado</p>
                 <h3 class="text-danger">$ 60.000</h3>
                 <h6>Tallas Disponible</h6>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">S</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">M</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">L</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">XL</a>
+                <button class="btn btn-outline-secondary">S</button>
+                <button class="btn btn-outline-secondary">M</button>
+                <button class="btn btn-outline-secondary">L</button>
+                <button class="btn btn-outline-secondary">XL</button>
                 <br>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -231,16 +243,16 @@
           <!--Pijama Violeta-->
           <div class="col">
             <div class="card text-center" style="width: 25rem;">
-              <img src="/bit05bootstrap/src/img/pijamas/violeta.jpg" class="card-img-top" alt="Pijama Violeta">
+              <img src="/src/img/pijamas/violeta.jpg" class="card-img-top" alt="Pijama Violeta">
               <div class="card-body">
                 <h5 class="card-title">Pijama Violeta</h5>
                 <p class="card-text">Pijama de algodón en color violeta</p>
                 <h3><del>$ 60.000</del></h3><h3 class="text-danger"> $ 50.000</h3>
                 <h6>Tallas Disponible</h6>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">S</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">M</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">L</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">XL</a>
+                <button class="btn btn-outline-secondary">S</button>
+                <button class="btn btn-outline-secondary">M</button>
+                <button class="btn btn-outline-secondary">L</button>
+                <button class="btn btn-outline-secondary">XL</button>
                 <br>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -252,16 +264,16 @@
           <!--Pijama Lucia-->
           <div class="col">
             <div class="card text-center" style="width: 25rem;">
-              <img src="/bit05bootstrap/src/img/pijamas/lucia.jpg" class="card-img-top" alt="Pijama Lucia">
+              <img src="/src/img/pijamas/lucia.jpg" class="card-img-top" alt="Pijama Lucia">
               <div class="card-body">
                 <h5 class="card-title">Pijama Lucia</h5>
                 <p class="card-text">Pijama de short en tela de algodón</p>
                 <h3 class="text-danger">$ 45.000</h3>
                 <h6>Tallas Disponible</h6>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">S</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">M</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">L</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">XL</a>
+                <button class="btn btn-outline-secondary">S</button>
+                <button class="btn btn-outline-secondary">M</button>
+                <button class="btn btn-outline-secondary">L</button>
+                <button class="btn btn-outline-secondary">XL</button>
                 <br>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -273,16 +285,16 @@
           <!--Pijama Romina-->
           <div class="col">
             <div class="card text-center" style="width: 25rem;">
-              <img src="/bit05bootstrap/src/img/pijamas/romina.jpg" class="card-img-top" alt="Pijama Romina">
+              <img src="/src/img/pijamas/romina.jpg" class="card-img-top" alt="Pijama Romina">
               <div class="card-body">
                 <h5 class="card-title">Pijama Romina</h5>
                 <p class="card-text">Pijama de short en tela de algodón</p>
                 <h3 class="text-danger">$ 45.000</h3>
                 <h6>Tallas Disponible</h6>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">S</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">M</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">L</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">XL</a>
+                <button class="btn btn-outline-secondary">S</button>
+                <button class="btn btn-outline-secondary">M</button>
+                <button class="btn btn-outline-secondary">L</button>
+                <button class="btn btn-outline-secondary">XL</button>
                 <br>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -294,16 +306,16 @@
           <!--Pijama Escarlata-->
           <div class="col">
             <div class="card text-center" style="width: 25rem;">
-              <img src="/bit05bootstrap/src/img/pijamas/escarlata.jpg" class="card-img-top" alt="Pijama Escarlata">
+              <img src="/src/img/pijamas/escarlata.jpg" class="card-img-top" alt="Pijama Escarlata">
               <div class="card-body">
                 <h5 class="card-title">Pijama Escarlata</h5>
                 <p class="card-text">Pijama de short en tela de algodón</p>
                 <h3><del>$ 45.000</del></h3><h3 class="text-danger"> $ 40.000</h3>
                 <h6>Tallas Disponible</h6>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">S</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">M</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">L</a>
-                <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="btn btn-outline-secondary">XL</a>
+                <button class="btn btn-outline-secondary">S</button>
+                <button class="btn btn-outline-secondary">M</button>
+                <button class="btn btn-outline-secondary">L</button>
+                <button class="btn btn-outline-secondary">XL</button>
                 <br>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -313,5 +325,42 @@
           </div>
         </div>
     </div>
+  </section>
+</div>
+
+ <!--Footer-->
+ <footer id="footer">
+  <div class="container-fluid text-center py-3">
+    <div class="row">
+      <div class="col-1">
+       <img src="/src/img/logo.ico" alt="" class="logo1">
+      </div>
+      <div class="col-10">
+      
+        <div class="class-icons-container">
+          <a href="https://www.facebook.com/feralcuadrado" class="social-icon" target="_blank"></a>
+          <a href="https://www.instagram.com/curiosidades_fer/?igshid=YmMyMTA2M2Y%3D" class="social-icon" target="_blank"></a>
+          <a href="https://www.youtube.com/channel/UCe06gpR6bMqTmlDwX3Ly5ZQ" class="social-icon" target="_blank"></a>
+          <a href="https://goo.gl/maps/Y5oYptt2nnmMEtEz6" class="social-icon" target="_blank"></a>   
+        </div> 
+        <ul class="footer-menu-container">
+          <li class="menu-items"><a href="deportes.html" style="text-decoration: none; color: black;">Deportes</a></li>
+          <li class="menu-items"><a href="pijamas.html" style="text-decoration: none; color: black;">Pijamas</a></li>
+          <li class="menu-items"><a href="zapatos.html"style="text-decoration: none; color: black;">Zapatos</a></li>
+          <li class="menu-items"><a href="contacto.html" style="text-decoration: none; color: black;">Contacténos</a></li>
+          
+        </ul>
+      
+        <span class="copyright">&copy; 2022 Derechos reservados Curiosidades Fer <sup>2</sup> </span>
+    
+    
+      </div>
+      
+    </div>
+  </div>
+  
+  
+ </footer>
+  <script src="./JS/carrito.js"></script>
   </body>
 </html>
