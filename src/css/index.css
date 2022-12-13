@@ -1,0 +1,373 @@
+body{
+    background:linear-gradient( 90deg, #fcfcda, #ffeebc , #b0f2c2, #c7f6d4,#f6d1de, #f3a8c2);
+    
+
+}
+  
+    
+marquee.promo,
+marquee.material{
+    padding: auto;
+    color: antiquewhite;
+    font-family: Ink Free;
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar{
+    
+    border: 1px solid rgb(46, 44, 44);
+    border-radius: 25px;
+    margin-top: 5px;
+    font-family: forte;
+    font-size: 20px;
+    margin-bottom: 1rem;
+
+}
+
+.navbar img{
+    border-radius: 50px;
+    border:1px solid  black;
+}
+
+.carrito{
+    padding-right: 1.5rem;
+}
+
+.carrito span{
+   color:rgb(68, 128, 109);
+   cursor: pointer;
+   font-size: 1.8rem;
+}
+
+
+
+#carouselExampleControls{
+    margin-top: 5px;
+}
+
+#catalogo{
+    margin-bottom: 2rem;
+}
+
+
+
+.carousel-item {
+    height: 50vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.3;
+    
+  }
+
+ /*  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    color:#ffeebc;
+    z-index: 1;
+    min-width: 50vh;
+    
+}  */
+
+ .color-overlay .row{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+} 
+
+
+.color-overlay{
+    min-height: 60vh;
+    color: rgb(0, 0, 0,.5);
+    
+   
+}
+
+.color-overlay h1{
+    font-family:forte;
+    font-size: 50px;
+    color:#f3a8c2;  
+}
+  .color-overlay #nosotros{
+    text-align: justify;
+    color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 20px;
+    
+    
+ }
+  
+section{
+    margin-top: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .2rem;
+}
+
+#aside{
+    padding: 1rem;
+}
+
+#aside .col{
+    padding-top: 30px;
+}
+
+#aside button{
+    width: 80vh;
+    height: 10vh;
+    border: none;
+    background: #c7f6d4;
+    font-size: 1rem;
+    cursor: pointer;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+}
+
+#aside button a{
+    text-decoration: none;
+    color: black;
+}
+
+#aside button:hover{
+    background:#f3a8c2;
+    
+}
+#categorias, 
+#descuento,
+#titulo {
+    font-family: forte;
+    font-size: 60px;
+    text-shadow: 4px -2px pink;
+}
+
+#productos .container-fluid{
+    padding-top: 20px;
+}
+
+#productos .card{
+    background-color: #ffeebc;
+    padding: 1.75rem;
+    border-radius: 1.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+#productos .card .card-img-top:hover{
+    transform: .5s;
+    padding: 10px;
+    border: 1px solid;
+}
+
+#productos h5{
+    color: #f3a8c2;
+    font-family: forte;
+
+}
+
+
+
+
+#footer{
+    position:relative;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+       
+}
+
+
+.logo1{
+
+    border-radius: 50px;
+    border:1px solid  black;
+    width: 100px;
+    margin-top: 1.5rem;
+   
+
+}
+
+.class-icons-container,
+.footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius:50px;
+    border: 1px solid rgb(10, 10, 10);
+    background-image:url(/src/img/redes/facebook.png) ;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin: 1.5rem;
+}
+
+.social-icon:hover{
+    background-color: black;
+    filter: invert(1);
+}
+
+.social-icon:nth-of-type(2){
+    background-image: url(/src/img/redes/instagram.png);
+}
+
+.social-icon:nth-of-type(3){
+    background-image: url(/src/img/redes/youtube.png);
+}
+.social-icon:nth-of-type(4){
+    background-image: url(/src/img/redes/marcador-de-ubicacion.png);
+}
+
+.footer-menu-container{
+    list-style-type: none;
+    color: black;
+    font-size: 30px;
+    font-family: forte;
+}
+
+.menu-items{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-items{
+    opacity: 1;
+}
+
+.copyright{
+    color: black;
+    opacity: 0.4;
+    text-align: center;
+}
+
+form{
+    border: 1px solid rgb(46, 44, 44);
+    border-radius: 25px;
+    margin-top: 20px;
+    font-family: forte;
+    font-size: 20px;
+}
+
+#formulario img{
+    border-radius: 50px;
+    border:1px solid  black;
+    width: 50vh;
+    margin-top: 25%;
+}
+
+@media only screen and (max-width: 640px) {
+    .overlay {
+      width: 100%;
+      min-width: 100%;
+      border-radius: 0;
+      height: 100vh;
+      position: initial;
+      transform: inherit;
+      padding: 30px 15px;
+    }
+  }
+
+  @media (max-width:767.98px) {
+    .color-overlay{
+        min-height: 30vh;
+        
+       
+    }
+    .color-overlay h1{
+        font-family:forte;
+        font-size: 25px;
+        color:#f3a8c2;  
+    }
+      .color-overlay #nosotros{
+        text-align: justify;
+        color:black;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        font-size: 10px;    
+        
+     }
+
+     .color-overlay .row{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    } 
+    .logo1{
+
+        border-radius: 50px;
+        border:1px solid  black;
+        width: 60px;
+        visibility:collapse;
+       
+    }
+
+    .footer-menu-container{
+        list-style-type: none;
+        color: black;
+        font-size: 20px;
+        font-family: forte;
+    }
+
+    .social-icon{
+        height: 30px;
+        width: 30px;
+        border-radius:30px;
+        border: 1px solid rgb(10, 10, 10);
+        background-image:url(/src/img/redes/facebook.png) ;
+        background-position: center;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        
+    }
+
+    form{
+        border: 1px solid rgb(46, 44, 44);
+        border-radius: 25px;
+        margin-top: 20px;
+        font-family: forte;
+        font-size: 20px;
+    }
+    
+    #formulario img{
+        border-radius: 50px;
+        border:1px solid  black;
+        width: 25vh;
+        margin-top: 50%;
+    }
+
+    #descuento{
+        
+        font-size: 30px;
+    }
+    
+  }
+
+
