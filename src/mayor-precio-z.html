@@ -4,7 +4,7 @@
     <!--Meta etiquetas requeridas-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fer<sup>2</sup></title>
+    <title>Zapatos</title>
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/compras.css">
@@ -61,7 +61,6 @@
     </div>
       
      </header>
-
      <div class="container-fluid" id="catalogo">
       <section class="card-section">
     <h1 class="text-center" id="titulo">Zapatos</h1>
@@ -80,12 +79,10 @@
   </div>
 </div>
 <br>
-
-
     <!--Tarjetas de Zapatos-->
-    <div class="row  justify-content-between justify-content-md-center g-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
           <!-- Tenis en gamuza hombre-->
-        <div class="col">
+        <div class="col order-5">
             <div class="card text-center" style="width: 25rem;">
               <img src="/src/img/zapatos/zh1.jpg" class="card-img-top" alt="Tenis Gamuza">
               <div class="card-body">
@@ -160,7 +157,7 @@
           </div>
         </div>
           <!-- Tenis color cafe hombre-->
-          <div class="col">
+          <div class="col order-0">
               <div class="card text-center" style="width: 25rem;">
                 <img src="/src/img/zapatos/zh2.jpg" class="card-img-top" alt="Tenis Cafe">
                 <div class="card-body">
@@ -182,7 +179,7 @@
             </div>
           </div>
           <!-- Tenis color blanco hombre-->
-          <div class="col">
+          <div class="col orden-2">
             <div class="card text-center" style="width: 25rem;">
               <img src="/src/img/zapatos/zh3.jpg" class="card-img-top" alt="Tenis blancos">
               <div class="card-body">
@@ -191,10 +188,10 @@
                 <h3 class="text-danger">$ 150.000</h3>
                 <h6>Tallas Disponible</h6>
                 <button class="btn btn-outline-secondary">38</button>
-                  <button class="btn btn-outline-secondary">39</button>
-                  <button class="btn btn-outline-secondary">40</button>
-                  <button class="btn btn-outline-secondary">41</button>
-                  <button class="btn btn-outline-secondary">42</button>
+                <button class="btn btn-outline-secondary">39</button>
+                <button class="btn btn-outline-secondary">40</button>
+                <button class="btn btn-outline-secondary">41</button>
+                <button class="btn btn-outline-secondary">42</button>
                 <br>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -204,7 +201,7 @@
           </div>
         </div>
           <!-- Tenis rosa mujer-->
-          <div class="col">
+          <div class="col order-3">
             <div class="card text-center" style="width: 25rem;">
               <img src="/src/img/zapatos/zm1.jpg" class="card-img-top" alt="Tenis rosa">
               <div class="card-body">
@@ -212,11 +209,11 @@
                 <p class="card-text">Tenis para Mujer rosados con cordones blancos y suela amplia.</p>
                 <h3><del>$ 150.000</del></h3><h3 class="text-danger"> $ 120.000</h3>
                 <h6>Tallas Disponible</h6>
-                <button class="btn btn-outline-secondary">36</button>
-                <button class="btn btn-outline-secondary">37</button>
                 <button class="btn btn-outline-secondary">38</button>
                 <button class="btn btn-outline-secondary">39</button>
                 <button class="btn btn-outline-secondary">40</button>
+                <button class="btn btn-outline-secondary">41</button>
+                <button class="btn btn-outline-secondary">42</button>
                 <br>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -271,7 +268,7 @@
           </div>
         </div>
           <!-- Tenis beige mujer-->
-          <div class="col">
+          <div class="col order-7">
             <div class="card text-center" style="width: 25rem;">
               <img src="/src/img/zapatos/zm2.jpg" class="card-img-top" alt="Tenis beige">
               <div class="card-body">
@@ -293,7 +290,7 @@
           </div>
         </div>
           <!-- Deportivos Gris/Rosa mujer-->
-          <div class="col">
+          <div class="col orden-1">
             <div class="card text-center" style="width: 25rem;">
               <img src="/src/img/zapatos/zm3.jpg" class="card-img-top" alt="Deportivos Gris/Rosa">
               <div class="card-body">
@@ -315,11 +312,10 @@
           </div>
         </div>
     </div>
-    </section>
-    </div>
-
-<!--Footer-->
-<footer id="footer">
+      </section>
+     </div>
+    <!--Footer-->
+ <footer id="footer">
   <div class="container-fluid text-center py-3">
     <div class="row">
       <div class="col-1">
@@ -351,6 +347,6 @@
   
   
  </footer>
-  <script src="./JS/carrito.js"></script>
+ <script src="/src/JS/carrito.js"></script>
   </body>
 </html>
