@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background:linear-gradient( 90deg, #fcfcda, #ffeebc , #b0f2c2, #c7f6d4,#f6d1de, #f3a8c2);
+    
+
+}
+
+header{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--bg-color);
+    box-shadow: 0 1px 4px hsl(0 4% 15% /10%);
+    z-index: 100;
+}
+.nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-family: forte;
+    font-size: 40px;
+}
+
+.nav img{
+    border-radius: 50px;
+    border:1px solid  black;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+#cart-icon{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.container-fluid{
+    padding: 8rem 0 3rem;
+
+}
+
+.btn-group{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#titulo{
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 4px -2px pink;
+    font-family: forte;
+
+}
+
+
+.card{
+    background-color: #ffeebc;
+    padding: 1.75rem;
+    border-radius: 1.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+} 
+.card-section{
+    display: grid;
+    gap: 1.75rem;
+    grid-template-columns: repeat(auto-fil,minmax(280px,1fr)) ;
+}
+
+.card {
+    width: 30rem;
+    margin: auto;
+     
+}
+
+.card:hover{
+    transform: 0.4s;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.card .card-body{
+    flex-basis: 100%;
+    margin-top: 1.2rem;
+   
+}
+
+.card-img-top{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+h3 del{
+    font-size: small;
+    text-decoration: line-through;
+}
+
+
+
+h2 .card-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    
+}
+.btn-outline-secondary{
+    cursor: pointer;
+    background: black;
+    color: #ffeebc;
+}
+.cart{
+    position: fixed;
+    top:0;
+    right: -100%;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+    background: #ffeebc;
+    box-shadow: -2px 0 4px hls(0 4% 15% / 10%);
+    transition: 0.3s;
+}
+
+.cart.active{
+    right:0 ;
+}
+.cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap:1rem;
+    margin-top: 1rem;
+    object-fit: contain;
+
+}
+
+.cart-imge{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 10px;
+
+}
+
+.detail-box{
+    display: grid;
+    row-gap: 0.5rem;
+    
+}
+
+.cart-product-title{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.cart-price{
+    font-weight: 500;
+    
+}
+.cart-quantity{
+    border: 1px solid black;
+    outline-color: #f3a8c2;
+    width: 2.4rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.cart-remove{
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid black;
+}
+
+.total-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.total-price{
+    margin-left: 0.5rem;
+}
+
+.btn-buy{
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background: #c7f6d4;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+.btn-buy:hover{
+    background:#f3a8c2;
+}
+
+#close-cart{
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+}
+
+.form{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    font-size:16px ;
+    border: none;
+}
+.boton{
+    width: 50px;
+    border-radius: 8px;
+
+}
+
+.btn-dec{
+    background-color: red;
+    border: red;
+
+}
+
+.btn-inc{
+    background-color: green;
+    border: green;
+}
+
+.btn-nulo{
+    background: transparent;
+}
+
+#footer{
+    position:relative;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+       
+}
+
+
+.logo1{
+
+    border-radius: 50px;
+    border:1px solid  black;
+    width: 100px;
+    margin-top: 1.5rem;
+   
+
+}
+
+.class-icons-container,
+.footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius:50px;
+    border: 1px solid rgb(10, 10, 10);
+    background-image:url(/src/img/redes/facebook.png) ;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin: 1.5rem;
+}
+
+.social-icon:hover{
+    background-color: black;
+    filter: invert(1);
+}
+
+.social-icon:nth-of-type(2){
+    background-image: url(/src/img/redes/instagram.png);
+}
+
+.social-icon:nth-of-type(3){
+    background-image: url(/src/img/redes/youtube.png);
+}
+.social-icon:nth-of-type(4){
+    background-image: url(/src/img/redes/marcador-de-ubicacion.png);
+}
+
+.footer-menu-container{
+    list-style-type: none;
+    color: black;
+    font-size: 30px;
+    font-family: forte;
+}
+
+.menu-items{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-items{
+    opacity: 1;
+}
+
+.copyright{
+    color: black;
+    opacity: 0.4;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 640px) {
+    .card{
+        width: 20rem;
+    }
+
+   
+}
+
+@media (max-width:767.98px) {
+    
+    .logo1{
+
+        border-radius: 50px;
+        border:1px solid  black;
+        width: 60px;
+        visibility:collapse;
+       
+    }
+
+    .footer-menu-container{
+        list-style-type: none;
+        color: black;
+        font-size: 20px;
+        font-family: forte;
+    }
+
+    .social-icon{
+        height: 30px;
+        width: 30px;
+        border-radius:30px;
+        border: 1px solid rgb(10, 10, 10);
+        background-image:url(/src/img/redes/facebook.png) ;
+        background-position: center;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        
+    }
+    
+  }
